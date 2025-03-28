@@ -6,9 +6,11 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     background-color: #121223;
     font-family: "Sen", sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #text_logar{
@@ -21,7 +23,7 @@ body{
 }
 
 #header{
-    margin-top: 15vh;
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     height: 8vh;
@@ -39,6 +41,8 @@ body{
     background-color: white;
     margin-top: 6vh;
     padding: 5%;
+    border-radius: 15px;
+    height: 85vh;
 }
 
 .text-informacoes-email{
@@ -60,4 +64,118 @@ body{
 
 #informacoes-email{
     margin-bottom: 1.2vh;
+}
+
+#camposenha{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+#icom-mostrar-senha{
+    z-index: 1;
+    margin-left: -10vw;
+    width: 19px;
+    height: 14px;
+    cursor: pointer;
+}
+
+#password-aspects{
+    display: flex;
+    justify-content: space-between;
+}
+
+#lembrar-senha-div{
+    width: 29vw;
+    display: flex;
+    justify-content: space-between;
+    color: #7E8A97;
+    font-size: 14px;
+    align-items: center;
+}
+
+#text-forgot-password{
+    color: #FF7622;
+    text-decoration: none;
+}
+
+#checkbox_id{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    width: 20px;
+    height: 20px;
+    border: 2px solid #E3EBF2;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+#botao-do-login{
+    margin-top: 4vh;
+    width: 100%;
+    height: 10vh;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #FF7622;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#registration-possibility-div{
+    display: flex;
+    margin-top: 4vh;
+    justify-content: center;
+}
+
+#div-inter-registration-possibility{
+    display: flex;
+    gap: 2.5vw;
+}
+
+#text_registre-se{
+    color: #FF7622;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#other-login-options-div{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#options-login-extra{
+    margin-top: 2vh;
+    display: flex;
+    width: 75%;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.option{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#option-facebook{
+    background-color: #395998;
+}
+
+#option-google{
+    background: linear-gradient(to bottom, #E44D26, #F9A825, #4CAF50, #1E88E5);
+}
+
+#option-apple{
+    background-color: #1B1F2F;
 }

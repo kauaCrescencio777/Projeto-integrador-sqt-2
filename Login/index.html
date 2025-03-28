@@ -24,15 +24,15 @@
                 <div id="informacoes-Password">
                     <p class="text-informacoes-email">SENHA</p>
                     <div id="camposenha">
-                        <input type="password" placeholder="Digite sua senha" class="input_informacoes">
-                        <img src="./img/ShowPassoword.png">
+                        <input type="password" placeholder="Digite sua senha" class="input_informacoes" id="inputPassword">
+                        <img src="./img/ShowPassoword.png" id="icom-mostrar-senha">
                     </div>
                     <div id="password-aspects">
                         <div id="lembrar-senha-div">
                             <input type="checkbox" id="checkbox_id">
-                            <p>Lembre-se</p>
+                            <p>Lembrar-me</p>
                         </div>
-                        <a><p>Esqueceu sua senha</p></a>
+                        <a id="text-forgot-password" href="">Esqueceu sua senha</a>
                     </div>
                 </div>
             </section>
@@ -40,8 +40,10 @@
                 <button type="button" id="botao-do-login">Logar-se</button>
             </section>
             <section id="registration-possibility-div">
-                <p>Não tem conta?</p>
-                <a><p>REGISTRE-SE</p></a>
+                <div id="div-inter-registration-possibility">
+                    <p>Não tem uma conta?</p>
+                    <a id="text_registre-se" href="">REGISTRE-SE</a>
+                </div>
             </section>
             <section id="other-login-options-div">
                 <p>Ou</p>
@@ -53,5 +55,6 @@
             </section>
         </section>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>
