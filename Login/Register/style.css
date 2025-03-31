@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #121223;
+    font-family: "Sen", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#botao-back{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 3%;
+    top: 4%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#header-register{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#text_cadastro{
+    color: white;
+    font-size: 30px;
+}
+
+#descricao_text_cadastro{
+    color: white;
+}
+
+#main-cadastro{
+    background-color: white;
+    margin-top: 6vh;
+    padding: 5%;
+    border-radius: 15px;
+    height: 85vh;
+}
+
+.input-information{
+    width: 100%;
+    height: 10vh;
+    background-color: #F0F5FA;
+    border-style: none;
+    border-radius: 12px;
+    padding-left: 5vw;
+    color: #A0A5BA;
+    font-family: "Sen", sans-serif;
+    font-size: 17px;
+}
+
+.text-cad{
+    font-size: 14px;
+    margin-bottom: 1.2vh;
+}
+
+.recive-information{
+    margin-bottom: 2vh;
+}
+
+#botao-cadastro{
+    margin-top: 1vh;
+    width: 100%;
+    height: 10vh;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #FF7622;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icon-show-password{
+    z-index: 1;
+    margin-left: -10vw;
+    width: 19px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.config-password{
+    display: flex;
+    align-items: center;
+}
