@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #121223;
+    font-family: "Sen", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#botao-back{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 3%;
+    top: 4%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#header-forgot-password{
+    margin-top: 14vh;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#text_esqueci_senha{
+    color: white;
+    font-size: 30px;
+}
+
+#descricao_text_esqueci_senha{
+    color:  #FFF2E0;
+}
+
+#main-forgot-password{
+    margin-top: 10vh;
+    background-color: white;
+    height: 70vh;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+#box-email{
+    font-size: 15px;
+    margin-bottom: 1.2vh;
+}
+
+#input-email{
+    width: 100%;
+    height: 10vh;
+    background-color: #F0F5FA;
+    border-style: none;
+    border-radius: 12px;
+    padding-left: 5vw;
+    color: #121223;
+    font-family: "Sen", sans-serif;
+}
+
+#text-recuperar{
+    font-size: 15px;
+    margin-bottom: 1.2vh;
+}
+
+#botao-enviar{
+    margin-top: 4vh;
+    width: 100%;
+    height: 10vh;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #FF7622;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
