@@ -65,6 +65,14 @@ html, body{
     border-radius: 20px;
 }
 
+#img-change-main{
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/img-test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .first-part{
     display: flex;
     align-items: center;
@@ -85,6 +93,8 @@ html, body{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .text-item{
