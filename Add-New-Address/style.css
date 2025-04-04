@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 3%;
+    font-family: "Sen", sans-serif;
+}
+
+#headers-new-address{
+    display: flex;
+    align-items: center;
+}
+
+#header-back{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECF0F4;
+    border-radius: 50px;
+}
+
+#text-header{
+    font-size: 17px;
+    margin-left: 3vw;
+}
+
+#new-address-main{
+    background-color: aqua;
+}
+
+#input-address{
+    width: 100%;
+}
+
+#route-address{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#first-part-input{
+    width: 100%;
+    display: flex;
+}
+
